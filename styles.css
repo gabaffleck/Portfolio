@@ -2,34 +2,27 @@
     body {
         background-color:black;
     }
-    h1 {
+    h1, h2, h3, h4, h5, h6, hr, p {
         color:white;
         text-align: center;
     }
-    h2 {
-        color:white;
-        text-align: center;
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
     }
-    h3 {
-        color:white;
-        text-align: center;
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
     }
-    h4 {
-        color:white;
-        text-align: center;
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
     }
-    h5 {
-        color:white;
-        text-align: center;
-    }
-    h6 {
-        color:white;
-        text-align: center;
-    }
-    p {
-        color:white;
-        text-align: center;
-    }
-    hr {
-        color:white;
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
     }
