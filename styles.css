@@ -5,9 +5,20 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    h1, h2, h3, h4, h5, h6, hr, p {
-        color:white;
+    h1, h3, h4, h5, h6, hr {
+        color:black;
         text-align: center;
+        margin: 1%;
+    }
+    h2 {
+        color: black;
+        text-align: left;
+        margin: 0%;
+    }
+    p {
+        color:black;
+        text-align: center;
+        margin: 0%;
     }
     a:link {
         color: green;
@@ -15,12 +26,12 @@
         text-decoration: none;
     }
     a:visited {
-        color: pink;
+        color: #6a60b0;
         background-color: transparent;
         text-decoration: none;
     }
     a:hover {
-        color: red;
+        color: #36c;
         background-color: transparent;
         text-decoration: underline;
     }
